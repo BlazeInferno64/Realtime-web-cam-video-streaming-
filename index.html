@@ -57,7 +57,7 @@
             height: 500px;
             object-fit: cover;
         }
-        button{
+        .button{
             text-align: center;
             padding: 10px 20px;
             border: 1px solid transparent;
@@ -67,7 +67,7 @@
             cursor: pointer;
             margin-top: .5rem;
         }
-        button:hover{
+        .button:hover{
             background-color: hsl(226, 100%, 30%);
         }
         p{
@@ -89,7 +89,7 @@
     <div>
     <video id="vid" controls></video>
     </div>
-    <button id="but" autoplay><i class="fa fa-video-camera"></i>  Open Web Cam</button>
+    <button id="but" class="button" autoplay><i class="fa fa-video-camera"></i>  Open Web Cam</button>
     </center>
     <script>
 document.addEventListener("DOMContentLoaded", () => { 
