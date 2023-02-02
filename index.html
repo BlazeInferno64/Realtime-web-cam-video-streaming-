@@ -12,6 +12,7 @@
     async defer>
 </script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+   <script src="https://www.google.com/recaptcha/api.js" async></script>
     <title>Realtime Video Web Cam</title>
     <style>
         body{
@@ -66,9 +67,11 @@
             border-radius: 10px;
             cursor: pointer;
             margin-top: .5rem;
+            transition: 250ms ease-in-out;
         }
         .button:hover{
             background-color: hsl(226, 100%, 30%);
+            transition: 250ms ease-in-out;
         }
         .button1{
             text-align: center;
@@ -79,9 +82,11 @@
             border-radius: 10px;
             cursor: pointer;
             margin-top: .5rem;
+            transition: 250ms ease-in-out;
         }
         .button1:hover{
             background-color: #e28989;
+            transition: 250ms ease-in-out;
         }
         p{
             font-size: 20px;
@@ -103,6 +108,7 @@
     <video id="vid" controls></video>
     </div>
     <button id="but" class="button" autoplay><i class="fa fa-video-camera"></i>  Open Web Cam</button>
+     <br>
     <button class="button1" onClick="document.location.reload(true)" value="Refresh" ><i class="fa fa-refresh"></i>  Refresh Page</button>
     </center>
     <script>
