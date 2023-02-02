@@ -94,13 +94,29 @@
           .fa-github{ 
             color: #fff; 
           }
-          footer{
-          background-color: #000;
-         }
-         .footer{
-          font-size: 14px;
-          color: #fff; 
-       }
+footer{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #ccc;
+    width: auto;
+    height: auto;
+    transition: 250ms ease-in-out;
+    resize: both;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.24);
+}
+footer:hover{
+    color: #fff;
+    background-color: #000;
+}
+footer a{
+    text-decoration: none;
+    color: #04aaf7;
+    
+}
+footer a:hover{
+    color: hsl(199, 97%, 39%);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.24);
+}
   
         @media screen and (max-width: 400px){
             video,div{
@@ -122,16 +138,15 @@
     <button class="button1" onClick="document.location.reload(true)" value="Refresh" ><i class="fa fa-refresh"></i>  Refresh Page</button>
    <center>
   </center>
-     <center>
+
       <footer>
-     <p>
+     <h3>
        Copyright &copy; 2023 <a href="https://github.com/blaizinginfernodragon123/"><i class="fa fa-github"></i>  BlaizingInfernoDragon</a>
-     </p>
-       <p class="footer">
-            Source Code? <a style="color: green; "  href="https://github.com/BlaizingInfernoDragon123/Realtime-web-cam-video-streaming-/archive/refs/heads/main.zip"><i class="fa fa-download"></i>  Download here</a>
+     </h3>
+       <p class="foot-txt">
+            Source Code? <a href="https://github.com/BlaizingInfernoDragon123/Realtime-web-cam-video-streaming-/archive/refs/heads/main.zip"><i class="fa fa-download"></i>  Download here</a>
         </p>
       </footer>
-    </center>
     <script>
 document.addEventListener("DOMContentLoaded", () => { 
 
