@@ -90,7 +90,17 @@
         }
         p{
             font-size: 20px;
-        }
+         }
+          .fa-github{ 
+            color: #fff; 
+          }
+          footer{
+          background-color: #000;
+         }
+         .footer{
+          font-size: 14px;
+       }
+  
         @media screen and (max-width: 400px){
             video,div{
                 height: 450px;
@@ -109,6 +119,16 @@
     </div>
     <button id="but" class="button" autoplay><i class="fa fa-video-camera"></i>  Open Web Cam</button>
     <button class="button1" onClick="document.location.reload(true)" value="Refresh" ><i class="fa fa-refresh"></i>  Refresh Page</button>
+   <center>
+  </center>
+      <footer>
+     <p>
+       Copyright &copy; 2023 <a href="https://github.com/blaizinginfernodragon123/"><i class="fa fa-github"></i>  BlaizingInfernoDragon</a>
+     </p>
+       <p class="footer">
+            Source Code? <a style="color: green; "  href="https://github.com/BlaizingInfernoDragon123/Realtime-web-cam-video-streaming-/archive/refs/heads/main.zip"><i class="fa fa-download"></i>  Download here</a>
+        </p>
+      </footer>
     </center>
     <script>
 document.addEventListener("DOMContentLoaded", () => { 
@@ -159,6 +179,9 @@ but.addEventListener("click", () => {
 
 }); 
 
+    </script>
+    <script>
+      console.log(document.cookie);
     </script>
 <script src="js/script.js></script>
 </body>
