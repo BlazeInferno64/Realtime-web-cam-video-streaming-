@@ -4,10 +4,10 @@ Hello everyone this is just a simple repository to display the working of a site
 |---------------|
 # View it here-
 
-<a href="https://blaizinginfernodragon123.github.io/Realtime-web-cam-video-streaming-/">
+<a href="https://blazeinferno64.github.io/Realtime-web-cam-video-streaming-/">
 
 ```
-https://blaizinginfernodragon123.github.io/Realtime-web-cam-video-streaming-/
+https://blazeinferno64.github.io/Realtime-web-cam-video-streaming-/
 ```
 </a>
 
